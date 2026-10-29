@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: deepfake-forensics-objective-one
+Version: 0.1.0
+Summary: Leakage-safe baseline pipeline for facial deepfake detection.
+Requires-Python: >=3.10

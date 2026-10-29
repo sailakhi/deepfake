@@ -1,0 +1,24 @@
+{
+  "analysis_timestamp_utc": "2026-09-21T07:05:19.848368+00:00",
+  "confidence": null,
+  "confidence_definition": null,
+  "face_detection": {
+    "faces_detected": 0
+  },
+  "fake_probability": null,
+  "frame_predictions": [],
+  "frame_summary": null,
+  "input_filename": "example.jpg",
+  "input_path": "example.jpg",
+  "media_type": "image",
+  "model": {
+    "name": "mobilenet_v3_small",
+    "prediction_labels": {
+      "0": "REAL",
+      "1": "FAKE"
+    }
+  },
+  "prediction": "UNKNOWN",
+  "reason": "No face detected",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated experiment artifacts and locally supplied data
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/real/
+!data/raw/real/.gitkeep
+!data/raw/fake/
+!data/raw/fake/.gitkeep
+data/processed/
+data/splits/*.csv
+data/metadata/*.csv
+checkpoints/*.pt
+results/**
+!results/.gitkeep
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db

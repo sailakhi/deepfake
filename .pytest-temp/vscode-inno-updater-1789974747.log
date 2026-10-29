@@ -1,0 +1,26 @@
+Sep 21 12:42:27.876 INFO Removing files from base directory of "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", preserving commit folder: 7debcd0e2a, main_exe: Some("Code.exe"), proxy_exe: None
+Sep 21 12:42:27.883 INFO remove_files: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", commit: 7debcd0e2a, main_exe: Some("Code.exe"), proxy_exe: None
+Sep 21 12:42:27.883 INFO Reading top-level directory: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code"
+Sep 21 12:42:27.884 INFO Skipping commit folder: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\7debcd0e2a"
+Sep 21 12:42:27.884 INFO Processing bin directory: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+Sep 21 12:42:27.884 INFO Skipping non-old file in bin: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code"
+Sep 21 12:42:27.884 INFO Skipping non-old file in bin: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code-tunnel.exe"
+Sep 21 12:42:27.884 INFO Skipping non-old file in bin: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd"
+Sep 21 12:42:27.884 INFO Will delete old file in bin: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\old_code"
+Sep 21 12:42:27.885 INFO Will delete old file in bin: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\old_code-tunnel.exe"
+Sep 21 12:42:27.885 INFO Will delete old file in bin: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\old_code.cmd"
+Sep 21 12:42:27.885 INFO Skipping code_path executable: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+Sep 21 12:42:27.885 INFO Skipping VisualElementsManifest.xml: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.VisualElementsManifest.xml"
+Sep 21 12:42:27.885 INFO Skipping unins file: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.dat"
+Sep 21 12:42:27.885 INFO Skipping unins file: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.exe"
+Sep 21 12:42:27.885 INFO Skipping unins file: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.msg"
+Sep 21 12:42:27.885 INFO Collected all directories and file handles for removal
+Sep 21 12:42:27.885 INFO All file handles marked for deletion
+Sep 21 12:42:27.885 INFO All files deleted
+Sep 21 12:42:27.885 INFO Delete directory recursively: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\1b50d58d73" (attempt 1)
+Sep 21 12:42:31.845 INFO Delete directory recursively: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\1b6a188127" (attempt 1)
+Sep 21 12:42:37.435 INFO Delete directory recursively: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\5264f2156c" (attempt 1)
+Sep 21 12:43:00.452 INFO Delete directory recursively: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\8a7abeba6e" (attempt 1)
+Sep 21 12:43:01.839 INFO Delete directory recursively: "C:\\Users\\saila\\AppData\\Local\\Programs\\Microsoft VS Code\\e4c7e7b1d6" (attempt 1)
+Sep 21 12:43:03.219 INFO File removal operation completed
+Sep 21 12:43:03.219 INFO Successfully completed file removal operation

@@ -1,0 +1,4 @@
+split,real,fake,total
+train,700,700,1400
+validation,150,150,300
+test,150,150,300

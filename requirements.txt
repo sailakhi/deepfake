@@ -1,0 +1,16 @@
+# Runtime
+torch>=2.6
+torchvision>=0.21
+# The OpenCV 5.0 wheel currently lacks the stable CascadeClassifier API used
+# by the bundled Haar face detector. Keep the verified 4.x interface.
+opencv-python>=4.10,<5
+Pillow>=10.4
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.9
+PyYAML>=6.0
+
+# Development and verification
+pytest>=8.3
+pytest-cov>=5.0

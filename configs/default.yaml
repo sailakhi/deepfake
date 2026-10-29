@@ -1,0 +1,31 @@
+project:
+  seed: 42
+  output_dir: results
+
+data:
+  raw_dir: data/raw
+  metadata_path: data/metadata/samples.csv
+  splits_dir: data/splits
+  image_size: 224
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+model:
+  name: mobilenet_v3_small
+  pretrained: true
+  num_classes: 2
+
+training:
+  batch_size: 16
+  epochs: 10
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  early_stopping_patience: 4
+  num_workers: 0
+  device: auto
+
+video:
+  sample_every_n_frames: 15
+  max_sampled_frames: 64
+  aggregation: mean_fake_probability
